@@ -10,11 +10,11 @@ I want to make a MIDI controlleur to control my lights via my already made [DMX 
 
 My inspiration is the GrandMa, wich cost around 7000$. I want to make that, but for much cheaper, and with just the functionality I need. The only thing I want to keep from that housing is the utility.
 
-![Image 1](images/1.jpg)
+![Image 1](images/img-1.jpg)
 
 So I started by making a litlle schema of what I want and what I imagine:
 
-![Image 2](images/2.jpg)
+![Image 2](images/img-2.jpg)
 
 Why 9 faders and 1 master ? Beacause on Aliexpress, tehre's only lots of 10 pieces. But that might changes, like maybe I will add 5 or I don't know. For the parts, I check online and talk to some friends, and apprenntly, this is the best:
 
