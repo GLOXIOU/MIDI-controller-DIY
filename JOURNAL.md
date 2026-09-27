@@ -75,4 +75,6 @@ Then I connected that to the ESP. I will continue tomorrow.
 
 ![Image 5](images/img-5.png)
 
+You can check all the KiCad related file in [this foleder](KiCad - MIDI-controller) if you want to !
+
 **Total time spent: 3.5 hours**
