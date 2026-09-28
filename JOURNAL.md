@@ -78,3 +78,31 @@ Then I connected that to the ESP. I will continue tomorrow.
 You can check all the KiCad related file in [this foleder](KiCad - MIDI-controller) if you want to !
 
 **Total time spent: 3.5 hours**
+
+# Day 3: Finishing the KiCad plan and testing
+
+I started by importing the 2 CD4067.
+
+![Image 6](images/img-6.png)
+
+Then, I added the 10 faders, SC1009G on the first MUX1 (U3 module on the screenshot). I needed to enlarge the sheet, which is why some elements shifted:
+
+![Image 7](images/img-7.png)
+
+Same thing for the 10 potentiometer WH148, but on the second MUX2, U2:
+
+![Image 8](images/img-8.png)
+
+After that, I aded the 3 rotary encoder switch and connected it on the ESP32:
+
+![Image 9](images/img-9.png)
+
+So here's the final look of the KiCad sheet. Later, I'll send it to someone on Slack who knows KiCad well, so they can check that everything is working properly.
+
+![Image 10](images/img-10.png)
+
+I finished by making the ERC test, wich past easaly.
+
+Today was a lot of KiCad, this is why there's not much texte for today, but a lot of screen shot ! You can check all the files in [this folder](KiCad - MIDI-controller).
+
+**Total time spent: 3 hours**
