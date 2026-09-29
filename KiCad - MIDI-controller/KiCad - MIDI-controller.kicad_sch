@@ -8264,7 +8264,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 71.12 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8528,7 +8528,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 374.65 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -8644,7 +8644,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 162.56 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8724,7 +8724,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 41.91 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8804,7 +8804,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 57.15 201.676 0)
 			(hide yes)
 			(show_name no)
@@ -8895,7 +8895,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 303.53 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -9013,7 +9013,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 334.01 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -9131,7 +9131,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 364.49 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -9249,7 +9249,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 354.33 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -9367,7 +9367,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 344.17 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -9483,7 +9483,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 26.67 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -9866,7 +9866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 30.48 201.676 0)
 			(hide yes)
 			(show_name no)
@@ -9900,19 +9900,19 @@
 			)
 		)
 		(pin "A"
-			(uuid "e21d9c48-ad9b-4192-b654-9445b9fb154c")
+			(uuid "e21d9c48-ad9b-4192-b654-9445b9fb154d")
 		)
 		(pin "B"
-			(uuid "5f6d38bb-ac76-4738-a339-00d50035095b")
+			(uuid "5f6d38bb-ac76-4738-a339-00d50035095c")
 		)
 		(pin "C"
-			(uuid "213b4e83-7fc0-47a1-9c92-885cbec20e73")
+			(uuid "213b4e83-7fc0-47a1-9c92-885cbec20e74")
 		)
 		(pin "S1"
-			(uuid "569976a6-83a5-41fd-8640-b4bd9e8d8343")
+			(uuid "569976a6-83a5-41fd-8640-b4bd9e8d8344")
 		)
 		(pin "S2"
-			(uuid "f38af942-b58e-4996-924e-ce0199882b54")
+			(uuid "f38af942-b58e-4996-924e-ce0199882b55")
 		)
 		(instances
 			(project "KiCad - MIDI-controller"
@@ -9955,7 +9955,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 147.32 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10035,7 +10035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 82.55 201.676 0)
 			(hide yes)
 			(show_name no)
@@ -10069,19 +10069,19 @@
 			)
 		)
 		(pin "A"
-			(uuid "e21d9c48-ad9b-4192-b654-9445b9fb154c")
+			(uuid "e21d9c48-ad9b-4192-b654-9445b9fb154e")
 		)
 		(pin "B"
-			(uuid "5f6d38bb-ac76-4738-a339-00d50035095b")
+			(uuid "5f6d38bb-ac76-4738-a339-00d50035095d")
 		)
 		(pin "C"
-			(uuid "213b4e83-7fc0-47a1-9c92-885cbec20e73")
+			(uuid "213b4e83-7fc0-47a1-9c92-885cbec20e75")
 		)
 		(pin "S1"
-			(uuid "569976a6-83a5-41fd-8640-b4bd9e8d8343")
+			(uuid "569976a6-83a5-41fd-8640-b4bd9e8d8345")
 		)
 		(pin "S2"
-			(uuid "f38af942-b58e-4996-924e-ce0199882b54")
+			(uuid "f38af942-b58e-4996-924e-ce0199882b56")
 		)
 		(instances
 			(project "KiCad - MIDI-controller"
@@ -10126,7 +10126,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 394.97 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -10348,7 +10348,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
 			(at 205.74 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -10464,7 +10464,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 57.15 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10544,7 +10544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 102.87 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10624,7 +10624,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 87.63 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10704,7 +10704,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 41.91 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10888,7 +10888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 26.67 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10970,7 +10970,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
 			(at 256.54 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -11037,13 +11037,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "192babfe-d80f-4865-a46b-30d8d13f3a76")
+			(uuid "192babfe-d80f-4865-a46b-30d8d13f3a77")
 		)
 		(pin "1"
-			(uuid "3c4840f3-691c-49ab-ae99-e4b5e034be0b")
+			(uuid "3c4840f3-691c-49ab-ae99-e4b5e034be0c")
 		)
 		(pin "3"
-			(uuid "bc7d7d6b-d7c7-41ea-ab82-8e3956025665")
+			(uuid "bc7d7d6b-d7c7-41ea-ab82-8e3956025666")
 		)
 		(instances
 			(project "KiCad - MIDI-controller"
@@ -11088,7 +11088,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 323.85 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -11206,7 +11206,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
 			(at 266.7 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -11273,13 +11273,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "192babfe-d80f-4865-a46b-30d8d13f3a76")
+			(uuid "192babfe-d80f-4865-a46b-30d8d13f3a78")
 		)
 		(pin "1"
-			(uuid "3c4840f3-691c-49ab-ae99-e4b5e034be0b")
+			(uuid "3c4840f3-691c-49ab-ae99-e4b5e034be0d")
 		)
 		(pin "3"
-			(uuid "bc7d7d6b-d7c7-41ea-ab82-8e3956025665")
+			(uuid "bc7d7d6b-d7c7-41ea-ab82-8e3956025667")
 		)
 		(instances
 			(project "KiCad - MIDI-controller"
@@ -11426,7 +11426,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 163.83 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -11610,7 +11610,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 55.88 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11829,7 +11829,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2eea215b-c6f4-4d47-a131-dd962ed23590")
+			(uuid "2eea215b-c6f4-4d47-a131-dd962ed23591")
 		)
 		(instances
 			(project "KiCad - MIDI-controller"
@@ -12080,7 +12080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 101.6 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -12160,7 +12160,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 72.39 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -12554,7 +12554,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
 			(at 236.22 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -12621,13 +12621,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "192babfe-d80f-4865-a46b-30d8d13f3a76")
+			(uuid "192babfe-d80f-4865-a46b-30d8d13f3a79")
 		)
 		(pin "1"
-			(uuid "3c4840f3-691c-49ab-ae99-e4b5e034be0b")
+			(uuid "3c4840f3-691c-49ab-ae99-e4b5e034be0e")
 		)
 		(pin "3"
-			(uuid "bc7d7d6b-d7c7-41ea-ab82-8e3956025665")
+			(uuid "bc7d7d6b-d7c7-41ea-ab82-8e3956025668")
 		)
 		(instances
 			(project "KiCad - MIDI-controller"
@@ -12672,7 +12672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
 			(at 215.9 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -12739,13 +12739,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "192babfe-d80f-4865-a46b-30d8d13f3a76")
+			(uuid "192babfe-d80f-4865-a46b-30d8d13f3a7a")
 		)
 		(pin "1"
-			(uuid "3c4840f3-691c-49ab-ae99-e4b5e034be0b")
+			(uuid "3c4840f3-691c-49ab-ae99-e4b5e034be0f")
 		)
 		(pin "3"
-			(uuid "bc7d7d6b-d7c7-41ea-ab82-8e3956025665")
+			(uuid "bc7d7d6b-d7c7-41ea-ab82-8e3956025669")
 		)
 		(instances
 			(project "KiCad - MIDI-controller"
@@ -12788,7 +12788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 148.59 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -12868,7 +12868,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 132.08 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13201,7 +13201,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 116.84 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13283,7 +13283,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
 			(at 226.06 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -13350,13 +13350,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "192babfe-d80f-4865-a46b-30d8d13f3a76")
+			(uuid "192babfe-d80f-4865-a46b-30d8d13f3a7b")
 		)
 		(pin "1"
-			(uuid "3c4840f3-691c-49ab-ae99-e4b5e034be0b")
+			(uuid "3c4840f3-691c-49ab-ae99-e4b5e034be10")
 		)
 		(pin "3"
-			(uuid "bc7d7d6b-d7c7-41ea-ab82-8e3956025665")
+			(uuid "bc7d7d6b-d7c7-41ea-ab82-8e395602566a")
 		)
 		(instances
 			(project "KiCad - MIDI-controller"
@@ -13436,76 +13436,76 @@
 			)
 		)
 		(pin "3"
-			(uuid "ab7590a5-1f12-45b9-87bc-c01b57a7c80f")
+			(uuid "ab7590a5-1f12-45b9-87bc-c01b57a7c810")
 		)
 		(pin "1"
-			(uuid "e5b58e06-a3a5-4bd5-a195-84bbee1cb9e1")
+			(uuid "e5b58e06-a3a5-4bd5-a195-84bbee1cb9e2")
 		)
 		(pin "12"
-			(uuid "0ac35c93-af92-4863-81e1-f46715471e16")
+			(uuid "0ac35c93-af92-4863-81e1-f46715471e17")
 		)
 		(pin "16"
-			(uuid "879052b9-23b7-4728-8719-f48bacd74d17")
+			(uuid "879052b9-23b7-4728-8719-f48bacd74d18")
 		)
 		(pin "8"
-			(uuid "a0c0bf88-bde4-4b3a-92a4-197ae7e4dd7f")
+			(uuid "a0c0bf88-bde4-4b3a-92a4-197ae7e4dd80")
 		)
 		(pin "2"
-			(uuid "bf2cfa0f-8c15-4c09-b075-38200bb1f92d")
+			(uuid "bf2cfa0f-8c15-4c09-b075-38200bb1f92e")
 		)
 		(pin "9"
-			(uuid "77f80368-eb61-4fa3-8ae7-555525d12c57")
+			(uuid "77f80368-eb61-4fa3-8ae7-555525d12c58")
 		)
 		(pin "10"
-			(uuid "7d44a5ec-6d20-4b11-857e-8a4137d88d33")
+			(uuid "7d44a5ec-6d20-4b11-857e-8a4137d88d34")
 		)
 		(pin "4"
-			(uuid "e8521527-ef24-402d-b1de-7273c4b925a6")
+			(uuid "e8521527-ef24-402d-b1de-7273c4b925a7")
 		)
 		(pin "5"
-			(uuid "77b4aefa-ab2a-43b3-a7b6-081b733cc4be")
+			(uuid "77b4aefa-ab2a-43b3-a7b6-081b733cc4bf")
 		)
 		(pin "7"
-			(uuid "f26d7e25-6ffb-407a-bcd7-192a2642c070")
+			(uuid "f26d7e25-6ffb-407a-bcd7-192a2642c071")
 		)
 		(pin "11"
-			(uuid "ffa75a98-2195-452e-bd38-345840a24d7b")
+			(uuid "ffa75a98-2195-452e-bd38-345840a24d7c")
 		)
 		(pin "13"
-			(uuid "90287530-c471-4b98-aa47-ac650a7a127b")
+			(uuid "90287530-c471-4b98-aa47-ac650a7a127c")
 		)
 		(pin "14"
-			(uuid "bd67646f-fdc7-40ed-90f9-82351ca25d0c")
+			(uuid "bd67646f-fdc7-40ed-90f9-82351ca25d0d")
 		)
 		(pin "6"
-			(uuid "1507fc5e-db5c-402b-8aae-b8ac978d4fee")
+			(uuid "1507fc5e-db5c-402b-8aae-b8ac978d4fef")
 		)
 		(pin "15"
-			(uuid "5769bea2-2aab-4db4-9d5e-4cf853c49282")
+			(uuid "5769bea2-2aab-4db4-9d5e-4cf853c49283")
 		)
 		(pin "19"
-			(uuid "216af3e3-5367-4a9a-ba9b-b9a904ebb88b")
+			(uuid "216af3e3-5367-4a9a-ba9b-b9a904ebb88c")
 		)
 		(pin "24"
-			(uuid "c6c7fbce-e364-4c56-853e-b9f9f8e261f3")
+			(uuid "c6c7fbce-e364-4c56-853e-b9f9f8e261f4")
 		)
 		(pin "17"
-			(uuid "1814c804-32a4-4e98-a71f-92c9b0a19825")
+			(uuid "1814c804-32a4-4e98-a71f-92c9b0a19826")
 		)
 		(pin "20"
-			(uuid "2ab7aab3-1571-47ed-bc63-1867c4f5b931")
+			(uuid "2ab7aab3-1571-47ed-bc63-1867c4f5b932")
 		)
 		(pin "21"
-			(uuid "9df36bfa-d977-44b0-b948-c957d9f4a8b4")
+			(uuid "9df36bfa-d977-44b0-b948-c957d9f4a8b5")
 		)
 		(pin "23"
-			(uuid "4963a952-3788-43cf-9e28-3c420e8507d5")
+			(uuid "4963a952-3788-43cf-9e28-3c420e8507d6")
 		)
 		(pin "18"
-			(uuid "51c472d8-5b29-4f90-8524-a6fe3e1f31b8")
+			(uuid "51c472d8-5b29-4f90-8524-a6fe3e1f31b9")
 		)
 		(pin "22"
-			(uuid "cbfe7c9f-6e0e-498e-bd34-7cffc4e252b8")
+			(uuid "cbfe7c9f-6e0e-498e-bd34-7cffc4e252b9")
 		)
 		(instances
 			(project "KiCad - MIDI-controller"
@@ -13548,7 +13548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 118.11 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -13630,7 +13630,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 313.69 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -13852,7 +13852,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
 			(at 276.86 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -13919,13 +13919,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "192babfe-d80f-4865-a46b-30d8d13f3a76")
+			(uuid "192babfe-d80f-4865-a46b-30d8d13f3a7c")
 		)
 		(pin "1"
-			(uuid "3c4840f3-691c-49ab-ae99-e4b5e034be0b")
+			(uuid "3c4840f3-691c-49ab-ae99-e4b5e034be11")
 		)
 		(pin "3"
-			(uuid "bc7d7d6b-d7c7-41ea-ab82-8e3956025665")
+			(uuid "bc7d7d6b-d7c7-41ea-ab82-8e395602566b")
 		)
 		(instances
 			(project "KiCad - MIDI-controller"
@@ -13968,7 +13968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 86.36 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14154,7 +14154,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
 			(at 246.38 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -14221,13 +14221,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "192babfe-d80f-4865-a46b-30d8d13f3a76")
+			(uuid "192babfe-d80f-4865-a46b-30d8d13f3a7d")
 		)
 		(pin "1"
-			(uuid "3c4840f3-691c-49ab-ae99-e4b5e034be0b")
+			(uuid "3c4840f3-691c-49ab-ae99-e4b5e034be12")
 		)
 		(pin "3"
-			(uuid "bc7d7d6b-d7c7-41ea-ab82-8e3956025665")
+			(uuid "bc7d7d6b-d7c7-41ea-ab82-8e395602566c")
 		)
 		(instances
 			(project "KiCad - MIDI-controller"
@@ -14270,7 +14270,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 133.35 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14456,7 +14456,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 384.81 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -14574,7 +14574,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
 			(at 195.58 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -14641,13 +14641,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "192babfe-d80f-4865-a46b-30d8d13f3a76")
+			(uuid "192babfe-d80f-4865-a46b-30d8d13f3a7e")
 		)
 		(pin "1"
-			(uuid "3c4840f3-691c-49ab-ae99-e4b5e034be0b")
+			(uuid "3c4840f3-691c-49ab-ae99-e4b5e034be13")
 		)
 		(pin "3"
-			(uuid "bc7d7d6b-d7c7-41ea-ab82-8e3956025665")
+			(uuid "bc7d7d6b-d7c7-41ea-ab82-8e395602566d")
 		)
 		(instances
 			(project "KiCad - MIDI-controller"
@@ -14692,7 +14692,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
 			(at 185.42 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -14759,13 +14759,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "192babfe-d80f-4865-a46b-30d8d13f3a76")
+			(uuid "192babfe-d80f-4865-a46b-30d8d13f3a7f")
 		)
 		(pin "1"
-			(uuid "3c4840f3-691c-49ab-ae99-e4b5e034be0b")
+			(uuid "3c4840f3-691c-49ab-ae99-e4b5e034be14")
 		)
 		(pin "3"
-			(uuid "bc7d7d6b-d7c7-41ea-ab82-8e3956025665")
+			(uuid "bc7d7d6b-d7c7-41ea-ab82-8e395602566e")
 		)
 		(instances
 			(project "KiCad - MIDI-controller"

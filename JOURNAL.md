@@ -106,3 +106,31 @@ I finished by making the ERC test, wich past easaly.
 Today was a lot of KiCad, this is why there's not much texte for today, but a lot of screen shot ! You can check all the files in [this folder](KiCad - MIDI-controller).
 
 **Total time spent: 3 hours**
+
+# Day 4: Starting the PCB
+
+Like yestreday, today will be a lot of screenshot and not much texte. Now that I finished the KiCad plan, I need to make it a PCB.
+
+So I continued to follow the tutorial, and started by updating the PCB in the PCB window of the logiciel. But, when I pressed F8 to update, a pop up showed up with 22 errors. Since I don't know anything about the software, I sent this screenshot to an LLM, which explained how to fix the problem.
+
+![Image 11](images/img-11.png)
+
+Turns out that I just needed to assign the fingerprints... But that took me so much time ! I had to search online for the footprint of each of my components to add them to KiCad, find a workaround when those footprints weren't available in KiCad, and then double check everything at the end component by component... 
+
+On top of that, I had to start all over again because I hadn't realized I needed to double click the fingerprint in addition to saving it... I won't make that mistake again !
+
+Here is what it looks like:
+
+![Image 12](images/img-12.png)
+
+So I did it, and now I can update the PCB without errors. Here's what it's look like for now, but it's verry unorganized, so I need to separate and place like I want all the compnments. The only problem is that I didn't find the right fingerprint for the fader, right now on the PCB it's some 60mm fader, so I need to check that later !
+
+![Image 13](images/img-13.png)
+
+Placing all the componment was also a long time to pass, but now it's done ! I’ll spare you the details regarding key spacing, vertical and horizontal alignment, the grid, and so on but of course, all of that was done!
+
+![Image 14](images/img-14.png)
+
+Now I need to make the faders 100mm, and I need to trace the PCB outlines, and finish other stuff ! There's still a little bit of time left ! But for today, it's finished ! It might not look like it, but placing all the components in the right place and at the right distance took me a lot of time.
+
+**Total time spent: 3 hours**
