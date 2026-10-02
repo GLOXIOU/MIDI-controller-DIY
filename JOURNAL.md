@@ -134,3 +134,29 @@ Placing all the componment was also a long time to pass, but now it's done ! I�
 Now I need to make the faders 100mm, and I need to trace the PCB outlines, and finish other stuff ! There's still a little bit of time left ! But for today, it's finished ! It might not look like it, but placing all the components in the right place and at the right distance took me a lot of time.
 
 **Total time spent: 3 hours**
+
+# Day 5: Continuing the PCB
+
+I started by making the faders 100mm instead of 60mm. But, I spent an hour to look for a 100mm fingerprint, with NO result... So I’ve decided to change things up. I’m simply going to wire the faders directly, that way, I can avoid using a PCB and cut costs. I put the ```Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical``` fingerprint insted.
+
+Then, I inverted the diodes on the back of the PCB, so I have the spac to put the keabords keys. Here's how the plan look right now:
+
+![Image 15](images/img-15.png)
+
+After that, I drew the edge cut, and start the routing. I started by setting the track width to 0.25 mm in the settings.
+
+I started by wiring up the entire matrix. I honestly thought it would take longer, but it wasn't bad! The most time-consuming part is the long connections linking the matrix to the ESP32. On this screenshot, these are all the small red connections.
+
+![Image 16](images/img-16.png)
+
+The, I made the analogic connection, for the rotary encoder. For the rotary encoder, that was verry long and hard ! Beacause I needed to go all the way to the MUX... Here's how it's looking rihgt now:
+
+![Image 17](images/img-17.png)
+
+It might not be very neat, but there are so many wires to run! I did the best I could. So after that, I made the wiring fot the faders.
+
+![Image 18](images/img-18.png)
+
+And it's all for today ! The only thing that's missing are the three large rotary encoders and the MUX/ESP32 connections. That really won't take long.
+
+**Total time spent: 3.5 hours**
