@@ -160,3 +160,37 @@ It might not be very neat, but there are so many wires to run! I did the best I 
 And it's all for today ! The only thing that's missing are the three large rotary encoders and the MUX/ESP32 connections. That really won't take long.
 
 **Total time spent: 3.5 hours**
+
+# Day 6: Finishing the PCB ! Finnaly...
+
+I'm starting to get fed up with making this PCB... I hope it'll be finished soon !
+
+I started by tackling the wire routing. First, I finished wiring the faders I only had two left to do and then I started working on the three rotary encoders. I needed to enlarge the PCB just a little bit. So here's how it's looking so far
+
+![Image 19](images/img-19.png)
+
+That is verry long, I had to start almost all over again because I had glued the ESP32 and the MUXes too close together. I shamefully thought I was going to have to abandon the project because of the PCB, but with a lot of time, I managed to fix the problems.
+
+Here is the area I moved and where I had to redo a large part of the routing:
+
+![Image 20](images/img-20.png)
+
+Now that I have made that, I just need to wired up a few bits on the matrix, and finished off the wiring between the ESP and the MUXes. Here is the final result, finally ! All of that fixes was ssooooo long !
+
+![Image 21](images/img-21.png)
+
+I really enjoyed learning how to make a PCB, but I still think I'll avoid using that in my future projects...
+
+So after that, I made the site plan. Here's a screenshot of it:
+
+![Image 22](images/img-22.png)
+
+And then, I generated all the file needed to order the PCB. You can check it [juste here](KiCad - MIDI-controller/MIDI-controller.kicad_pcb.zip). 
+
+The PCP will be 241x108mm. I put that on JLCPCB, and it say only 13$ for the board ! That's a great news.
+
+![Image 23](images/img-23.png)
+
+So, to sum up, all I have left to do is export the PCB in 3D, create the 3D enclosure, and generate the final BOM and README. We are curently at ~100$ to build the MIDI controller, depending on the price of the deleverie for the PCB.
+
+**Total time spent: 4 hours**
