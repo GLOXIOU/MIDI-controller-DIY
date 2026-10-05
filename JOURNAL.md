@@ -191,6 +191,43 @@ The PCP will be 241x108mm. I put that on JLCPCB, and it say only 13$ for the boa
 
 ![Image 23](images/img-23.png)
 
-So, to sum up, all I have left to do is export the PCB in 3D, create the 3D enclosure, and generate the final BOM and README. We are curently at ~100$ to build the MIDI controller, depending on the price of the deleverie for the PCB.
+So, to sum up, all I have left to do is export the PCB in 3D, create the 3D enclosure, and generate the final BOM and README. I also need to write the entire code. We are curently at ~100$ to build the MIDI controller, depending on the price of the deleverie for the PCB.
+
+**Total time spent: 4 hours**
+
+# Day 7: Coding and checking all of the project
+
+Today I have a lot of time, and I don't want to touch Fusion or KiCad. So I want to make the entire codebase for the project.
+
+So I started by doing the basic stuff and the ports configuration. You can check the file [hre](MIDI-controller-firmware.ino)
+
+Here's how it's look:
+
+![Image 24](images/img-24.png)
+
+Then, I made the MIDI output using [this link](https://www.qlcplus.org/forum/viewtopic.php?t=16926) and [that one](https://github.com/mcallegari/qlcplus/blob/master/engine/src/qlcinputsource.cpp) for the comptaibilite with QLC.
+QLC is a lighning software that I use, and this MIDI controller is mean to be used with that. But normally, it will also be compatible with other software.
+
+After that, I implemented the code for the matrix in this order: the buttons, the rotary encoders, and then the faders and potentiometers.
+
+![Image 25](images/img-25.png)
+
+And I finish by testing the entire code. I compiled it using the Arduino IDE, and this time I was even able to "test" it directly on the ESP32, since I already have one at home that I'm using for another project.
+
+I got a lot of error message, and I spent a lot of time on this one before giving up and asking an LLM. The problem actually wasn't that complicated...
+```Guru Meditation Error: Core panic'ed (Cache disabled but cached memory region accessed```
+Just a message while sending a MIDI message from an interrupt or a callback.
+
+The code wasn't the most annoying part today. The real trouble started when I went to write the README and ended up reviewing the whole project.
+
+So in fact, in the KiCad model that I made, I used the wrong fingerpint for the ESP32, for the key switches, and for the WH148... So I need to change that. It shouldn't take very long, normally.
+
+So, I'm thinking of buying Kailh Choc V1 switches instead of replacing the fingerprint sensor partly because they aren't that expensive, but mainly because a fingerprint sensor for my current switches simply doesn't exist.
+
+If I do that, I might also switch the CD4067 from SOIC to the DIP-24 version, following a friend's recommendation. I also realized I'd forgotten the screw holes for the PCB... Rookie mistake!
+
+So that’s it for today; I’ll check everything tomorrow. Hopefully, the PCB will be the right one this time. As for the overall price and the BOM, they will almost certainly change a little.
+
+So, I still have the PCB to finish, the 3D case to make, the BOM, and the README, and then the project will be all set !
 
 **Total time spent: 4 hours**
