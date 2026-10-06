@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.6"
     },
-    "CreationDate": "2026-10-04T15:24:10+02:00"
+    "CreationDate": "2026-10-06T15:00:38+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "KiCad - MIDI-controller-F_Cu.gbr",
+      "Path": "KiCad - MIDI-controller-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "KiCad - MIDI-controller-B_Cu.gbr",
+      "Path": "KiCad - MIDI-controller-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "KiCad - MIDI-controller-F_Paste.gbr",
+      "Path": "KiCad - MIDI-controller-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "KiCad - MIDI-controller-B_Paste.gbr",
+      "Path": "KiCad - MIDI-controller-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "KiCad - MIDI-controller-F_Silkscreen.gbr",
+      "Path": "KiCad - MIDI-controller-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "KiCad - MIDI-controller-B_Silkscreen.gbr",
+      "Path": "KiCad - MIDI-controller-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "KiCad - MIDI-controller-F_Mask.gbr",
+      "Path": "KiCad - MIDI-controller-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "KiCad - MIDI-controller-B_Mask.gbr",
+      "Path": "KiCad - MIDI-controller-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "KiCad - MIDI-controller-Edge_Cuts.gbr",
+      "Path": "KiCad - MIDI-controller-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

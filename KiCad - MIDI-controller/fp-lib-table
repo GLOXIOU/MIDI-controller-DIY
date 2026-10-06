@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MIDI-controller")(type "KiCad")(uri "${KIPRJMOD}/MIDI-controller.pretty")(options "")(descr "Footprints for this project (Kailh Choc V1, ESP32-S3 devkit)"))
+)

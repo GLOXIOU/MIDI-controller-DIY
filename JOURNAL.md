@@ -231,3 +231,67 @@ So that’s it for today; I’ll check everything tomorrow. Hopefully, the PCB w
 So, I still have the PCB to finish, the 3D case to make, the BOM, and the README, and then the project will be all set !
 
 **Total time spent: 4 hours**
+
+# Day 8: Fixing all the problemes of the project
+
+Today I want to fix all the problems that I mention on day 7. That way, all that will remain is the 3D and the README.
+
+I started by replacing the mounting points with the correct ones; they need to be connected properly. The screw holes have also been drilled.
+
+![Image 26](images/img-26.png)
+
+![Image 27](images/img-27.png)
+
+You can see on the right that I've installed the right ESP32 this time, and that everything still needs to be connected...
+
+![Image 28](images/img-28.png)
+
+I also tried to optimize the space a bit; that's why the two MUX units were moved down and rotated the other way.
+So then, I selected all the connections on the right and simply removed them:
+
+![Image 29](images/img-29.png)
+
+I think it's much simpler to start from scratch... Here come the faders:
+
+![Image 30](images/img-30.png)
+
+And the matrix and the rest connected to the ESP.
+
+![Image 31](images/img-31.png)
+
+So, putting it all together, this is the result. I had to tweak two or three other small things in the matrix to route the cables the way I wanted, and also because I changed the footprints, but it didn't take long.
+
+![Image 32](images/img-32.png)
+
+After that, of course, I created the ground planes just like last time, and I also exported the PCB in 3D so I can start working on the enclosure tomorrow:
+
+![Image 33](images/img-33.png)
+
+So now I'm finalizing the full BOM since I've also tested the PCB with the DRC, which no longer shows any errors. Here's it:
+
+| Component | Quantity | Price |
+| --- | --- | --- |
+| [Kailh Choc V1 1350](https://fr.aliexpress.com/item/1005012826040037.html?spm=a2g0o.cart.0.0.478d378dYODNq0&mp=1&pdp_npi=6%40dis%21USD%21USD%205.36%21USD%204.93%21%21USD%204.93%21%21%21%40210384a717913205885618903e10fc%2112000059425505100%21ct%21FR%218054027548%21%212%210%21&gatewayAdapt=glo2fra) | 20 | 9.86$ |
+| [RV09 B10K 9 mm vertical](https://fr.aliexpress.com/item/1005007525119798.html?spm=a2g0o.cart.0.0.478d378dYODNq0&mp=1&pdp_npi=6%40dis%21USD%21USD+1.86%21USD+1.82%21%21USD+1.82%21%21%21%40210384a717913205885618903e10fc%2112000041148089969%21ct%21FR%218054027548%21%211%210%21&gatewayAdapt=glo2fra) | 10 | 1.82$ |
+| [EC11 through-hole with push-button, 20 mm shaft](https://fr.aliexpress.com/item/1005009889978797.html?spm=a2g0o.cart.0.0.478d378dYODNq0&mp=1&pdp_npi=6%40dis%21USD%21USD%205.88%21USD%202.68%21%21USD%202.68%21%21%21%40210384a717913207470334482e10fc%2112000050490958429%21ct%21FR%218054027548%21%212%210%21&gatewayAdapt=glo2fra) | 3 | 5.36$ |
+| [CD4067BE in DIP-24](https://fr.aliexpress.com/item/1005011580802574.html?spm=a2g0o.cart.0.0.478d378dYODNq0&mp=1&pdp_npi=6%40dis%21USD%21USD%206.69%21USD%206.69%21%21USD%206.69%21%21%21%40210384a717913207470334482e10fc%2112000055976316177%21ct%21FR%218054027548%21%211%210%21&gatewayAdapt=glo2fra) | 2 | 6.69$ |
+| [1N4148 diodes](https://fr.aliexpress.com/item/4000142272546.html?spm=a2g0o.cart.0.0.478d378dYODNq0&mp=1&pdp_npi=6%40dis%21USD%21USD+1.64%21USD+1.64%21%21USD+1.64%21%21%21%40210384a717913207470334482e10fc%2110000000428321629%21ct%21FR%218054027548%21%211%210%21&pdp_ext_f=%7B%22cart2PdpParams%22%3A%7B%22pdpBusinessMode%22%3A%22retail%22%7D%7D&gatewayAdapt=glo2fra) | 20 | 1.64$ |
+| [faders SC1009G B10K](https://fr.aliexpress.com/item/1005005672998771.html?spm=a2g0o.cart.0.0.478d378dYODNq0&mp=1&pdp_npi=6%40dis%21USD%21USD+1.30%21USD+1.30%21%21USD+1.30%21%21%21%40210384a717913207470334482e10fc%2112000033969264277%21ct%21FR%218054027548%21%2110%210%21&gatewayAdapt=glo2fra) | 10 | 13$ |
+| [ESP32-S3 N16R8](https://fr.aliexpress.com/item/1005008809316571.html?spm=a2g0o.cart.0.0.478d378dYODNq0&mp=1&pdp_npi=6%40dis%21USD%21USD+8.02%21USD+8.02%21%21USD+8.02%21%21%21%40210384a717913207470334482e10fc%2112000046760012013%21ct%21FR%218054027548%21%211%210%21&pdp_ext_f=%7B%22cart2PdpParams%22%3A%7B%22pdpBusinessMode%22%3A%22retail%22%7D%7D&gatewayAdapt=glo2fra) | 1 | 8.02$ |
+| [PCB](https://jlcpcb.com/) | 1 | 16,6$ |
+| Deliverie/Importation | --- | 65,28$ |
+| Total | --- | 115,27$ |
+
+Oh... The "Deliverie/Importation"...
+
+I re-measured the PCB. It's 241x108. So, I'm going to check the price on JLCPCB:
+
+![Image 34](images/img-34.png)
+
+It seems to be the same price, which makes sense. Shipping is the most expensive part! It's the same thing for the componments on aliexpress...
+
+I'm really happy with everything I got done today; there isn't much left to do on the project!
+
+Unfortunately, I think I'll only be able to work on it for two hours or a little more tomorrow. I'm going to start the 3D model of the case.
+
+**Total time spent: 4.5 hours**
