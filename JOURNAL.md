@@ -363,6 +363,10 @@ Today the project will normaly be finished. I started by checking everything, th
 
 Then I made the [readme](README.md) file.
 
+Here's a look at it:
+
+![img-47](img-47.png)
+
 I also made a [bom](BOM.csv) file.
 
 And just like that, this huge project is finished !
