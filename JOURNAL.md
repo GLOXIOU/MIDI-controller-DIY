@@ -365,7 +365,7 @@ Then I made the [readme](README.md) file.
 
 Here's a look at it:
 
-![img-47](img-47.png)
+![img-47](images/img-47.png)
 
 I also made a [bom](BOM.csv) file.
 
