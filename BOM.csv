@@ -1,10 +1,12 @@
-Component,Price
-Kailh Choc V1 1350,9.86$
-RV09 B10K 9 mm vertical,7.83$
-"EC11 through-hole with push-button, 20 mm shaft",5.36$
-CD4067BE in DIP-24,6.69$
-1N4148 diodes,1.64$
-faders SC1009G B10K,9.23$
-ESP32-S3 N16R8,8.02$
-PCB,"16,6$"
-Total,65.23$
+Component,Quantity,Price
+Kailh Choc V1 1350,20,9.86$
+RV09 B10K 8 mm vertical,10,7.90$
+"EC11 through-hole with push-button, 20 mm shaft",3,5.36$
+CD4067BE in DIP-24,2,6.69$
+1N4148 diodes,20,1.64$
+faders SC6021N 10k,10,9$
+ESP32-S3 N16R8,1,8.02$
+Knobs cap,10,2.68$
+PCB,1,"16,60$"
+Lowprofile keycaps,20,17.34$
+Total,---,85.09$
