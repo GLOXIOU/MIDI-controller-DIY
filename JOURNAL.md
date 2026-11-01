@@ -299,6 +299,27 @@ Tomorrow, I'm going to start the 3D model of the case.
 
 Hey ! So I started the day by making a folder for the firmware. You can check the file [here](firmware). And I also created a folder for the 3D modele. You can check it [here](3D-files).
 
+I started the day by researching all the 3D models of the componments that was missing on the PCB to do the assembly on Fusion 360.
+
+So what is missing is:
+ * Everything except the 2 MUXes
+
+I didn't find anything on the 100mm faders. When I made the PCB, I had the same issue with the footprints. So after a litlle bit of research, I realized that on the GrandMa, there is some 60mm standart faders. 
+
+So, I’m going to replace the 100mm ones with 60mm ones throughout the project. That means I’ll need to redo the BOM, while also adding the covers for the knobs, faders, and keyboard keys. So the new faders will be the SC6021N 10k. It's 2.25$ for 3 faders.
+
+I'm not redoing the PCB because it would take too much time, and besides, the PCB would cost a lot more for no reason.
+
+ So I looked for all the components. Here are the files:
+* [Kailh Choc V1 1350](3D-files/Kailh%20Choc%20Low%20Profile%20Switch.step)
+* [RV09 B5K 8 mm vertical](3D-files/RV09%20B10K%209.step)
+* [EC11 20 mm shaft](3D-files/EC11_Rotary_Encoder_Switched.step)
+* [Diodes 1N4148](3D-files/Diode%201N4148.STEP)
+* [Faders SC6021N 10k](3D-files/potentio_assem_asm.stp)
+* [ESP32-S3 N16R8](3D-files/ESP32-S3-WROOM-1.STEP)
+
+I found all the files on [GrabCad](https://grabcad.com/).
+
 After that, I started the 3D model. This is going to be a very long process…
 
 So I started by making the basic shape and support of the case:
