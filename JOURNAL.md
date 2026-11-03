@@ -395,3 +395,43 @@ I also made a [bom](BOM.csv) file.
 And just like that, this huge project is finished !
 
 **Total time spent: 2 hours**
+
+# Day 12: Litlle modification on the 3D
+
+Hey !
+
+Today, even if I already submit to review the project, I just want to change a cuplle of thing on the project, especially on the 3D files.
+
+Looking back at the project and the GrandMa Wing, my source of inspiration, I’ve come up with a few little ideas. Nothing too crazy ! I think it’ll be quick to put together.
+
+So I started by straighten the controller because it was a litlle difficult to work on that like that, and thn I removed my G logo that I printed on the case. In fact that's a open source project, so afetr a bit of a reflexion, that's not good to just put my logo like that. That took me juste 5min...
+
+Here's how it look like know:
+
+![img-48](images/img-48.png)
+
+After that, I just filled the gap that looked odd on the left. I took some measurements and then replicated the same gap on the left that was already on the right. The one on the right conceals the ESP32. I also repositioned the master fader so it’s aligned with its corresponding keyboard keys. The same applies to all the other faders.
+
+![img-49](images/img-49.png)
+
+Then I made some calculations for the faders, knobs, etc. The current faders are a few millimeters too low to fit a cap, so I’ll need to sort that out.
+
+I started by making a cap for a knob, then for a rotary encoder, and finally for a fader.
+
+![img-50](images/img-50.png)
+
+It took a very long time ! But this way, I can simply duplicate all of these and copy them onto the other components.
+
+![img-51](images/img-51.png)
+
+And after some exports, the project is 100% finished this time ! You can check the new files [here](3D-files/assembly-Midi-controller-DIY.step) for the assembly (I didn't add any STEP file), and just [here](3D-files/to%20print/) for the new file to print, including the knobs and everything.
+
+So after that I apdated a litlle bit the README, and here are a few screenshots of the new box:
+
+![img-52](images/img-52.png)
+
+![img-53](images/img-53.png)
+
+![img-54](images/img-54.png)
+
+**Total time spent: 3.5 hours**

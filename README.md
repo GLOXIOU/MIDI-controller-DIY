@@ -38,7 +38,7 @@ The current design uses the following main components:
 | Component | Quantity | Price |
 | --- | --- | --- |
 | [Kailh Choc V1 1350](https://fr.aliexpress.com/item/1005012826040037.html?spm=a2g0o.cart.0.0.478d378dYODNq0&mp=1&pdp_npi=6%40dis%21USD%21USD%205.36%21USD%204.93%21%21USD%204.93%21%21%21%40210384a717913205885618903e10fc%2112000059425505100%21ct%21FR%218054027548%21%212%210%21&gatewayAdapt=glo2fra) | 20 | 9.86$ |
-| [RV09 B10K 8 mm vertical](https://fr.aliexpress.com/item/1005005951601744.html?spm=a2g0o.productlist.main.2.6a013a5dBfqj0c&algo_pvid=9dd7ff78-7cef-4815-a249-9f4bb1d433f4&algo_exp_id=9dd7ff78-7cef-4815-a249-9f4bb1d433f4-1&pdp_ext_f=%7B%22order%22%3A%22197%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%217.66%217.66%21%21%2151.02%2151.02%21%4021613be817921531317277993e10c3%2112000034999053530%21sea%21FR%218054027548%21X%211%210%21n_tag%3A-29911%3Bd%3A8484f755%3Bm03_new_user%3A-29895&curPageLogUid=b76fqSVCkx9n&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005005951601744%7C_p_origin_prod%3A) | 10 | 7.90$ |
+| [RV09 B10K 9 mm vertical](https://fr.aliexpress.com/item/1005005951601744.html?spm=a2g0o.productlist.main.2.6a013a5dBfqj0c&algo_pvid=9dd7ff78-7cef-4815-a249-9f4bb1d433f4&algo_exp_id=9dd7ff78-7cef-4815-a249-9f4bb1d433f4-1&pdp_ext_f=%7B%22order%22%3A%22197%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%217.66%217.66%21%21%2151.02%2151.02%21%4021613be817921531317277993e10c3%2112000034999053530%21sea%21FR%218054027548%21X%211%210%21n_tag%3A-29911%3Bd%3A8484f755%3Bm03_new_user%3A-29895&curPageLogUid=b76fqSVCkx9n&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005005951601744%7C_p_origin_prod%3A) | 10 | 7.90$ |
 | [EC11 through-hole with push-button, 20 mm shaft](https://fr.aliexpress.com/item/1005009889978797.html?spm=a2g0o.cart.0.0.478d378dYODNq0&mp=1&pdp_npi=6%40dis%21USD%21USD%205.88%21USD%202.68%21%21USD%202.68%21%21%21%40210384a717913207470334482e10fc%2112000050490958429%21ct%21FR%218054027548%21%212%210%21&gatewayAdapt=glo2fra) | 3 | 5.36$ |
 | [CD4067BE in DIP-24](https://fr.aliexpress.com/item/1005011580802574.html?spm=a2g0o.cart.0.0.478d378dYODNq0&mp=1&pdp_npi=6%40dis%21USD%21USD%206.69%21USD%206.69%21%21USD%206.69%21%21%21%40210384a717913207470334482e10fc%2112000055976316177%21ct%21FR%218054027548%21%211%210%21&gatewayAdapt=glo2fra) | 2 | 6.69$ |
 | [1N4148 diodes](https://fr.aliexpress.com/item/4000142272546.html?spm=a2g0o.cart.0.0.478d378dYODNq0&mp=1&pdp_npi=6%40dis%21USD%21USD+1.64%21USD+1.64%21%21USD+1.64%21%21%21%40210384a717913207470334482e10fc%2110000000428321629%21ct%21FR%218054027548%21%211%210%21&pdp_ext_f=%7B%22cart2PdpParams%22%3A%7B%22pdpBusinessMode%22%3A%22retail%22%7D%7D&gatewayAdapt=glo2fra) | 20 | 1.64$ |
@@ -61,7 +61,7 @@ It is responsible for:
 
 * MIDI processing
 * USB-C Output
-* 42 component inputs
+* 43 component inputs
 
 All the data, saves, and other settings are stored in the internal storage system of the ESP32.
 
@@ -90,7 +90,7 @@ There is a PCB in this project because it's required. Here are all the component
 * Kailh Choc V1 1350 x20
 * RV09 B10K 9 mm vertical x10
 * EC11 through-hole with push-button x3
-* faders SC1009G B10K x10
+* faders SC6021N B10K x10
 
 Here's a screenshot of the PCB with some of the components:
 
@@ -99,18 +99,18 @@ Here's a screenshot of the PCB with some of the components:
 The PCB file is [here](3D-files/PCB.step).
 And you can modify it using KiCad with [this](KiCad%20-%20MIDI-controller) folder.
 
-The case is 273mm x 250mm x 60mm, and is designed to perfectly house all components, be easy to install, not take up much space, and be durable.
+The case is 283mm x 250mm x 60mm, and is designed to perfectly house all components, be easy to install, not take up much space, and be durable.
 
 Here's a look at it:
 
-![Image 44](images/img-44.png)
+![Image 52](images/img-52.png)
 
-![Image 45](images/img-45.png)
+![Image 53](images/img-53.png)
 
-![Image 46](images/img-46.png)
+![Image 54](images/img-54.png)
 
-Assembly file: [assembly-Midi-controller-DIY.step](3D-files/assembly/assembly-Midi-controller-DIY.step)  
-Print file: [to print](to%20print)
+Assembly file: [assembly-Midi-controller-DIY.step](3D-files/assembly-Midi-controller-DIY.step)  
+Print file: [to print](3D-files/to%20print/)
 
 ---
 
@@ -131,12 +131,12 @@ It includes in-depth design, configuration, part of the code, enclosure design, 
 
 ## Inspiration and credits
 
-The DMX Unit DIY project was inspired by the GrandMa Wing.
+The MIDI Controller DIY project was inspired by the GrandMa Wing.
 
-The DMX Unit DIY is an independent design developed from this inspiration.
+The MIDI Controller DIY is an independent design developed from this inspiration.
 
 Credits:
-* GrandMa Wing — inspiration for the project concept and overall goal of creating an affordable DMX interface.
+* GrandMa Wing — inspiration for the project concept and overall goal of creating an affordable MIDI interface.
 * GrabCAD community — some 3D component models were used as reference geometry for the CAD assembly. The original authors retain ownership of their respective models:
   * ESP32-S3
   * MUX CD4067BE in DIP-24
